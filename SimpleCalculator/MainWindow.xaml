@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimpleCalculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="236.638" Width="176.901">
     <Grid>
-        
+        <Button x:Name="_0" Content="0" HorizontalAlignment="Left" Margin="3,40,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_0_Click"/>
+        <Button x:Name="_1" Content="1" HorizontalAlignment="Left" Margin="43,40,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_1_Click"/>
+        <Button x:Name="_2" Content="2" HorizontalAlignment="Left" Margin="83,40,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_2_Click"/>
+        <Button x:Name="_3" Content="3" HorizontalAlignment="Left" Margin="123,40,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_3_Click"/>
+        <Button x:Name="_4" Content="4" HorizontalAlignment="Left" Margin="3,80,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_4_Click"/>
+        <Button x:Name="_5" Content="5" HorizontalAlignment="Left" Margin="43,80,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_5_Click"/>
+        <Button x:Name="_6" Content="6" HorizontalAlignment="Left" Margin="83,80,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_6_Click"/>
+        <Button x:Name="_7" Content="7" HorizontalAlignment="Left" Margin="123,80,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_7_Click"/>
+        <Button x:Name="_8" Content="8" HorizontalAlignment="Left" Margin="3,120,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_8_Click"/>
+        <Button x:Name="_9" Content="9" HorizontalAlignment="Left" Margin="43,120,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="_9_Click"/>
+        <Button x:Name="btnAdd" Content="+" HorizontalAlignment="Left" Margin="83,120,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="BtnAdd_Click"/>
+        <Button x:Name="btnSubtract" Content="-" HorizontalAlignment="Left" Margin="123,120,0,0" VerticalAlignment="Top" Width="40    " Height="40    " Click="BtnSubtract_Click"/>
+        <Button x:Name="Enter" Content="Enter" HorizontalAlignment="Left" Margin="83,160,0,0" VerticalAlignment="Top" Width="80" Height="40    " Click="Enter_Click"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="3,160,0,0" VerticalAlignment="Top" Width="80" Height="40    " Click="Btn_Clear_Click"/>
+        <TextBox x:Name="TextBoxField" HorizontalAlignment="Left" Height="23" Margin="0,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+
     </Grid>
 </Window>
